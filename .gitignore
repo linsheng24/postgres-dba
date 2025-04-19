@@ -1,0 +1,10 @@
+# Ignore Terraform sensitive files
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+.terraform
+
+# Ignore editor and OS-specific files
+*.swp
+.DS_Store
+Thumbs.db
